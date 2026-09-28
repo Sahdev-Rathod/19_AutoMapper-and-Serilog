@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automapper And Sirilog", "Automapper And Sirilog", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherStudentDAL", "TeacherStudentDAL\TeacherStudentDAL.csproj", "{DCE0BC3A-5677-46CD-BA97-3698B7510104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherStudentRepository", "TeacherStudentRepository\TeacherStudentRepository.csproj", "{B8249597-9DE4-4DC1-A5DD-26F498373C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherStudentServices", "TeacherStudentServices\TeacherStudentServices.csproj", "{B85CDB82-E208-4B03-8FE2-90DAD6A80A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherStudentDTO", "TeacherStudentDTO\TeacherStudentDTO.csproj", "{5B4204BB-52EB-48B5-ADF7-5F661B9281C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherStudentWebAPI", "TeacherStudentWebAPI\TeacherStudentWebAPI.csproj", "{9440FA5A-B44D-4220-BB7B-C0A6F4309FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE0BC3A-5677-46CD-BA97-3698B7510104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE0BC3A-5677-46CD-BA97-3698B7510104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE0BC3A-5677-46CD-BA97-3698B7510104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE0BC3A-5677-46CD-BA97-3698B7510104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8249597-9DE4-4DC1-A5DD-26F498373C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8249597-9DE4-4DC1-A5DD-26F498373C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8249597-9DE4-4DC1-A5DD-26F498373C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8249597-9DE4-4DC1-A5DD-26F498373C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85CDB82-E208-4B03-8FE2-90DAD6A80A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85CDB82-E208-4B03-8FE2-90DAD6A80A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85CDB82-E208-4B03-8FE2-90DAD6A80A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85CDB82-E208-4B03-8FE2-90DAD6A80A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4204BB-52EB-48B5-ADF7-5F661B9281C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4204BB-52EB-48B5-ADF7-5F661B9281C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4204BB-52EB-48B5-ADF7-5F661B9281C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4204BB-52EB-48B5-ADF7-5F661B9281C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9440FA5A-B44D-4220-BB7B-C0A6F4309FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9440FA5A-B44D-4220-BB7B-C0A6F4309FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9440FA5A-B44D-4220-BB7B-C0A6F4309FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9440FA5A-B44D-4220-BB7B-C0A6F4309FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCE0BC3A-5677-46CD-BA97-3698B7510104} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B8249597-9DE4-4DC1-A5DD-26F498373C3D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B85CDB82-E208-4B03-8FE2-90DAD6A80A9A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5B4204BB-52EB-48B5-ADF7-5F661B9281C3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9440FA5A-B44D-4220-BB7B-C0A6F4309FCD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D4CFAA-9647-4E28-9640-9F61A2686CEA}
+	EndGlobalSection
+EndGlobal

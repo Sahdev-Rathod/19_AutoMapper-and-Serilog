@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Phoenix.Mediator.All" Version="2.2.0" />
+    <PackageReference Include="Schedulr" Version="1.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeacherStudentDAL\TeacherStudentDAL.csproj" />
+    <ProjectReference Include="..\TeacherStudentDTO\TeacherStudentDTO.csproj" />
+    <ProjectReference Include="..\TeacherStudentRepository\TeacherStudentRepository.csproj" />
+    <ProjectReference Include="..\TeacherStudentServices\TeacherStudentServices.csproj" />
+  </ItemGroup>
+
+</Project>
